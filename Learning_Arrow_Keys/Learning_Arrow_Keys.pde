@@ -1,7 +1,7 @@
 
 int y = 100;
 int x = 100;
-int rotation = 1;
+float rotation = 3.0;
 void setup()
 {
   size(300, 200);
@@ -22,7 +22,7 @@ void keyPressed()
     if (keyCode == RIGHT)
     {
       // x += 5;
-      rotation += 1;
+      rotation += 0.5;
     }
     if (keyCode == LEFT)
     {
